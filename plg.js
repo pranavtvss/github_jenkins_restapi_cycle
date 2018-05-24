@@ -3,7 +3,7 @@ var fs = require('fs');
 var page = require('webpage').create();
 // argument 0 is always the file which is called (this)
 
-var url = "file:///C:/Users/Admin/Desktop/Jenkins/js/index.html"; // e.g. 'test/unit/tests.html'
+var url = "file:index.html"; // e.g. 'test/unit/tests.html'
 console.log("Opening " + url);
 
 page.open(url, function (status) {
