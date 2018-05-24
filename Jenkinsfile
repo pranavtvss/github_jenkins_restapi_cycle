@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     stages {
-        stage ('Compile Stage') {
+        stage ('REST API Execution Stage') {
 
             steps {
               
