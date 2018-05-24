@@ -7,7 +7,7 @@ var page = require('webpage').create();
 //console.log(window.location.hostname);  
 //console.log(window.location.href); 
 //console.log(window.location.pathname);
-var url = "file://index.html"; // e.g. 'test/unit/tests.html'
+var url = "file:///C:/Users/Admin/.jenkins/workspace/GJRI/index.html"; // e.g. 'test/unit/tests.html'
 console.log("Opening " + url);
 
 page.open(url, function (status) {
